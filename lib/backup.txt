@@ -1,0 +1,83 @@
+class HNotuHesap extends StatelessWidget {
+  static const AppbarColor = const Color(0xFF000080);
+  static const ContainerColor = const Color(0xFF110d1e);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: AppbarColor,
+        title: Text('Harf Notu Hesaplama'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Container(
+            height: 30,
+          ),
+          Text(
+            'Kubilay Çakmak Tarafından Dart dili kullanılarak yapılmıştır.',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class DNotuHesap extends StatelessWidget {
+  static const AppbarColor = const Color(0xFF000080);
+  static const ContainerColor = const Color(0xFF110d1e);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: AppbarColor,
+        title: Text('Dönem Notu Hesaplama'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Container(
+            height: 30,
+          ),
+          Text(
+            'Kubilay Çakmak Tarafından Dart dili kullanılarak yapılmıştır.',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class GNotuHesap extends StatelessWidget {
+  static const AppbarColor = const Color(0xFF000080);
+  static const ContainerColor = const Color(0xFF110d1e);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: AppbarColor,
+        title: Text('Genel Notu Hesaplama'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Container(
+            height: 30,
+          ),
+          Text(
+            'Kubilay Çakmak Tarafından Dart dili kullanılarak yapılmıştır.',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
